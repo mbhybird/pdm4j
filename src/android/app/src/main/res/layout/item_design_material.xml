@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:padding="2dp">
+
+    <TextView
+        android:id="@+id/item_design_material_tvMaterialNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="货号 "
+        android:gravity="center"
+        android:textColor="#444444"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/item_design_material_tvMaterialName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="物料编码"
+        android:gravity="center"
+        android:textColor="#444444"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/item_design_material_ivPic"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:scaleType="center"
+        android:layout_gravity="center"
+        android:src="@drawable/empty" />
+
+</LinearLayout>

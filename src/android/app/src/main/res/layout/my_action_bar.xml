@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageButton
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"
+        android:background="#00000000"
+        android:src="@drawable/nav_icon_back"
+        android:id="@+id/my_action_bar_ib_back"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="凯普森"
+        android:textSize="24sp"
+        android:id="@+id/my_action_bar_tv_title"
+        android:textColor="@android:color/white"/>
+</RelativeLayout>

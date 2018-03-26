@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/item_sample_manager_note_ivPicture"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_margin="10dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/item_sample_manager_note_ivPicture"
+        android:layout_toEndOf="@+id/item_sample_manager_note_ivPicture">
+
+        <LinearLayout
+            android:id="@+id/item_sample_manager_note_Top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:text="异样原因：" />
+
+            <TextView
+                android:id="@+id/item_sample_manager_note_tvNotes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:textColor="#444444" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/buyer_sample_assign_task_labelLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_flat_style"
+            android:gravity="center"
+            android:text="用户名" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_flat_style"
+            android:gravity="center"
+            android:text="用户组" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/buyer_sample_assign_task_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/buyer_sample_assign_task_buttonLayout"
+        android:layout_below="@+id/buyer_sample_assign_task_labelLayout"
+        android:overScrollMode="never" />
+
+    <LinearLayout
+        android:id="@+id/buyer_sample_assign_task_buttonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/buyer_sample_assign_task_btnOK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_flat_style"
+            android:text="确定" />
+
+        <Button
+            android:id="@+id/buyer_sample_assign_task_btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_flat_style"
+            android:text="返回" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.besthings.pdm.activity.GraphicNotesPicViewerActivity">
+
+    <LinearLayout
+        android:id="@+id/graphic_layout_topBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/graphic_btnGraphicNotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/button_flat_style"
+            android:text="款图批注" />
+
+        <Button
+            android:id="@+id/graphic_btnNotesUpload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/button_flat_style"
+            android:text="批注上传" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/graphic_ivPic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/graphic_layout_bottomBar"
+        android:layout_below="@+id/graphic_layout_topBar"
+        android:scaleType="fitCenter" />
+
+    <LinearLayout
+        android:id="@+id/graphic_layout_bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/graphic_btnPassed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/button_flat_style"
+            android:text="审核通过" />
+
+        <Button
+            android:id="@+id/graphic_btnCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/button_flat_style"
+            android:text="返回" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/graphic_pbUpload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="invisible" />
+
+</RelativeLayout>

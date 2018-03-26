@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/border_line_while"
+                android:gravity="center"
+                android:text="类型"
+                android:textSize="15sp" />
+
+            <Spinner
+                android:id="@+id/buyer_sample_borrow_spType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:entries="@array/buyerSampleBorrowType"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/border_line_while"
+                android:gravity="center"
+                android:text="借取人"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/buyer_sample_borrow_etBorrower"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="请输入借取人"
+                android:imeOptions="actionNext"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:background="@drawable/border_line_while"
+                android:gravity="center"
+                android:text="污损记录"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/buyer_sample_borrow_etRecord"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="请输入污损记录"
+                android:imeOptions="actionNext"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:background="@drawable/border_line_while"
+                android:gravity="center"
+                android:text="备注"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/buyer_sample_borrow_etRemark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="请输入备注"
+                android:imeOptions="actionDone"
+                android:inputType="text" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/buyer_sample_borrow_pb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="invisible" />
+
+</RelativeLayout>

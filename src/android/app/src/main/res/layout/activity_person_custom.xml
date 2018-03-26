@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/person_custom_llTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/person_custom_ll"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/person_custom_btnDayOne"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/border_line_while"
+                android:text="1天" />
+
+            <Button
+                android:id="@+id/person_custom_btnDayThr"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/border_line_while"
+                android:text="3天" />
+
+            <Button
+                android:id="@+id/person_custom_btnDaySev"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/border_line_while"
+                android:text="7天" />
+
+            <Button
+                android:id="@+id/person_custom_btnMonthOne"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/border_line_while"
+                android:text="1个月" />
+
+            <Button
+                android:id="@+id/person_custom_btnDayDef"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/border_line_while"
+                android:text="自定义" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#D6D7D7" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true">
+
+            <EditText
+                android:id="@+id/person_custom_etSearch"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="8dp"
+                android:layout_toLeftOf="@+id/person_custom_btnSearch"
+                android:background="#e3e3e3"
+                android:hint="请输入你要搜索的内容"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/person_custom_btnSearch"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/person_custom_spFilter"
+                android:text="搜索" />
+
+            <Spinner
+                android:id="@+id/person_custom_spFilter"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:entries="@array/PersonCustomType" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#D6D7D7" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/person_custom_tvAll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="全"
+                android:textColor="@drawable/font_selected_blue_style"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/person_custom_tvOrderState"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="订"
+                android:textColor="@drawable/font_selected_blue_style"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/person_custom_tvMatState"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="料"
+                android:textColor="@drawable/font_selected_blue_style"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/person_custom_tvPlateState"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="版"
+                android:textColor="@drawable/font_selected_blue_style"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/person_custom_tvCutState"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="裁"
+                android:textColor="@drawable/font_selected_blue_style"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/person_custom_tvClothState"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="做"
+                android:textColor="@drawable/font_selected_blue_style"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/person_custom_tvAssemblyState"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="后道"
+                android:textColor="@drawable/font_selected_blue_style"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/person_custom_tvStockState"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="入库"
+                android:textColor="@drawable/font_selected_blue_style"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/person_custom_tvDeliver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="发货"
+                android:textColor="@drawable/font_selected_blue_style"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#D6D7D7" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/person_custom_chart_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/person_custom_btnList"
+        android:layout_below="@+id/person_custom_llTop"
+        android:visibility="invisible">
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/person_custom_lcChart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/person_custom_below_chart" />
+
+        <LinearLayout
+            android:id="@+id/person_custom_below_chart"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="图表格式：" />
+
+            <Button
+                android:id="@+id/person_custom_btnOrderDay"
+                android:layout_width="10dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:text="日订单" />
+
+            <Button
+                android:id="@+id/person_custom_btnOrderMonth"
+                android:layout_width="10dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:text="月订单" />
+
+            <Button
+                android:id="@+id/person_custom_btnOrderYear"
+                android:layout_width="10dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:text="年订单" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/person_custom_rlRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/person_custom_btnKLine"
+        android:layout_below="@+id/person_custom_llTop" >
+
+        <com.scwang.smartrefresh.layout.SmartRefreshLayout
+            android:id="@+id/person_custom_refreshLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/person_custom_rv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:overScrollMode="never"
+                android:visibility="visible" />
+        </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/person_custom_btnKLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_flat_style"
+        android:text="K线显示"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/person_custom_btnList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_flat_style"
+        android:text="列表显示"
+        android:visibility="invisible" />
+</RelativeLayout>

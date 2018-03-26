@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/demo_layoutLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:textSize="12sp"
+            android:id="@+id/demo_etLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请填写地址"/>
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/demo_btnGetLocation"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="获取地址"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_below="@+id/demo_layoutLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="拍照或从相册选择图片"
+        android:id="@+id/demo_btnPhotoPicker"/>
+    <ImageView
+        android:scaleType="fitCenter"
+        android:id="@+id/demo_iv"
+        android:layout_below="@+id/demo_btnPhotoPicker"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>

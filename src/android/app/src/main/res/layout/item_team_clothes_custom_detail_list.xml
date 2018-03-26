@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingStart="15dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="编号：" />
+
+            <TextView
+                android:id="@+id/item_team_clothes_custom_detail_list_tvSerialNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#444444"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="人员：" />
+
+            <TextView
+                android:id="@+id/item_team_clothes_custom_detail_list_tvCustomer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#444444"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="订单状态：" />
+
+            <TextView
+                android:id="@+id/item_team_clothes_custom_detail_list_tvOrderState"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#444444" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="打版状态：" />
+
+            <TextView
+                android:id="@+id/item_team_clothes_custom_detail_list_tvPlateState"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#444444" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="车版状态：" />
+
+            <TextView
+                android:id="@+id/item_team_clothes_custom_detail_list_tvClothState"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#444444" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="入库状态：" />
+
+            <TextView
+                android:id="@+id/item_team_clothes_custom_detail_list_tvStockState"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#444444" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="分类/品类：" />
+
+            <TextView
+                android:id="@+id/item_team_clothes_custom_detail_list_tvStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#444444" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="尺码：" />
+
+            <TextView
+                android:id="@+id/item_team_clothes_custom_detail_list_tvSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#444444" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="备料状态：" />
+
+            <TextView
+                android:id="@+id/item_team_clothes_custom_detail_list_tvMatState"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#444444" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="单裁状态：" />
+
+            <TextView
+                android:id="@+id/item_team_clothes_custom_detail_list_tvCutState"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#444444" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="后道状态：" />
+
+            <TextView
+                android:id="@+id/item_team_clothes_custom_detail_list_tvAssemblyState"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#444444" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="发货状态：" />
+
+            <TextView
+                android:id="@+id/item_team_clothes_custom_detail_list_tvDeliverState"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#444444" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

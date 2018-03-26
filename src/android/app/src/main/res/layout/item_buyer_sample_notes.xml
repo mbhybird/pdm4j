@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/item_buyer_sample_note_ivPicture"
+        android:layout_width="90dp"
+        android:layout_height="120dp"
+        android:layout_margin="10dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/item_buyer_sample_note_ivPicture"
+        android:layout_toEndOf="@+id/item_buyer_sample_note_ivPicture">
+
+        <LinearLayout
+            android:id="@+id/item_buyer_sample_note_Top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:text="批注:" />
+
+            <TextView
+                android:id="@+id/item_buyer_sample_note_tvNotes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:textColor="#444444" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_buyer_sample_note_Top">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:text="爆点拆分:" />
+
+            <TextView
+                android:id="@+id/item_buyer_sample_note_tvRemark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:textColor="#444444" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

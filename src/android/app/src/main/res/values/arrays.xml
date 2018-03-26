@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="filterType">
+        <item>筛选</item>
+        <item>年度</item>
+        <item>季节</item>
+        <item>主题</item>
+        <item>波段</item>
+        <item>设计师</item>
+        <item>分类/品类</item>
+    </string-array>
+    <string-array name="costAccountsFilterType">
+        <item>筛选</item>
+        <item>年度</item>
+        <item>季节</item>
+        <item>分类/品类</item>
+    </string-array>
+    <string-array name="buyerSampleBorrowType">
+        <item>借取</item>
+        <item>销售</item>
+        <item>库存</item>
+        <item>销毁</item>
+    </string-array>
+    <string-array name="statisticalSummaryType">
+        <item>筛选</item>
+        <item>年度</item>
+        <item>季节</item>
+        <item>主题</item>
+        <item>波段</item>
+        <item>设计师</item>
+        <item>纸样师</item>
+        <item>车版师</item>
+        <item>分类/品类</item>
+    </string-array>
+    <string-array name="ChartType">
+        <item>筛选</item>
+        <item>年度</item>
+        <item>季节</item>
+        <item>主题</item>
+        <item>波段</item>
+        <item>分类/品类</item>
+    </string-array>
+    <string-array name="PersonCustomType">
+        <item>筛选</item>
+        <item>门店</item>
+        <item>品牌</item>
+        <item>快递公司</item>
+        <item>分类/品类</item>
+    </string-array>
+</resources>

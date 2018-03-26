@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/item_analysis_of_research_quantity_analysis_llTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="#B8B8B8"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/item_analysis_of_research_quantity_analysis_tvStateName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="状态名称"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:textColor="#545151" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="#B8B8B8"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/item_analysis_of_research_quantity_analysis_tvNotStarted"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|end"
+            android:text="未开始"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:textColor="#545151" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="#B8B8B8"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/item_analysis_of_research_quantity_analysis_tvOnGoing"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|end"
+            android:text="进行中"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:textColor="#545151" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="#B8B8B8"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/item_analysis_of_research_quantity_analysis_tvFinished"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|end"
+            android:text="已完成"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:textColor="#545151" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="#B8B8B8"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/item_analysis_of_research_quantity_analysis_tvAudited"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|end"
+            android:text="已审核"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:textColor="#545151" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="#B8B8B8"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/item_analysis_of_research_quantity_analysis_tvUnusual"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|end"
+            android:text="异样"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:textColor="#545151" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="#B8B8B8"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/item_analysis_of_research_quantity_analysis_tvSummary"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|end"
+            android:text="统计"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:textColor="#545151" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="#B8B8B8"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#B8B8B8" />
+
+</LinearLayout>
